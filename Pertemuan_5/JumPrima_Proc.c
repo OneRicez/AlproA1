@@ -23,12 +23,12 @@ int main(){
   return 0;
 }
 
-/* Fungsi */
+/* Procedure */
 void jumprime(int N, int *sum){
   /* Kamus Lokal */
   int jumlah = 0, // sebagai jumlah prima
       faktor; // faktor penanda prima (faktor = 2)
-  /* Algoritma Fungsi */
+  /* Algoritma Procedure */
   for (int i=2; i<=N; i++){
     faktor = 0; 
     for (int j=1; j<=i; j++){
